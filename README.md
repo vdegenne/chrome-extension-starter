@@ -1,7 +1,7 @@
 # chrome-extension-starter
 
 ## Install
-### clone to a new project directory (appname)
+### clone to a new project directory (extension_name)
 ```bash
 git clone --depth 1 https://github.com/vdegenne/chrome-extension-starter.git extension_name
 ```
