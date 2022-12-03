@@ -33,4 +33,4 @@ You may want to change the `name` and the `content_scripts` keys
 
 Rename `content.js` to `inject.js` into the `content_scripts` block in the `manifest.json`
 
-## Load the extension into your browser
+### Finally load the extension into your browser
