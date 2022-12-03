@@ -25,13 +25,12 @@ npm i
 ! If you are not using TypeScript, create `content.js` at the root
 ```
 
-## Modify the `manifest.json` file
+### Modify the `manifest.json` file
 
 You may want to change the `name` and the `content_scripts` keys
-
-## Load the extension into your browser
-
 
 ### If you need to inject your script into the page
 
 Rename `content.js` to `inject.js` into the `content_scripts` block in the `manifest.json`
+
+## Load the extension into your browser
