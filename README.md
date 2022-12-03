@@ -34,25 +34,4 @@ You may want to change the `name` and the `content_scripts` keys
 
 ### If you need to inject your script into the page
 
-Modify `manifest.json`
-
-```json
-{
-  ...,
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["inject.js"]
-    }
-  ],
-  "web_accessible_resources" : [
-    {
-      "resources": ["content.js"],
-      "matches": ["<all_urls>"]
-    }
-  ]
-}
-```
-```diff
-! Change <all_urls> accordingly
-```
+Rename `content.js` to `inject.js` into the `content_scripts` block in the `manifest.json`
